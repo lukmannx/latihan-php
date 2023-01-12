@@ -54,6 +54,16 @@
 
     //penulisan variable dilambangkan menggunakan dollar ($)
     $name = 'dimas';
+    $feel = 'senang';
+
+    echo $name;
+
+    // constant
+    // contoh mudahnya untuk membuat variable yang immutable kita bisa gunakan constant dengan menggunakan function define
+
+    define("KELAS", "Kelas 11 Generasi Kece");
+    echo KELAS
+
 
  ?>
 
